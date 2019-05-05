@@ -43,7 +43,7 @@ All our models use GRU and the last attention one uses VGG16 pretrained others u
 
 ## References
 
-- [Deep-anomaly: Fully convolutional neural network for fast anomaly detection in crowded scenes] (https://arxiv.org/abs/1609.00866)
+- [Deep-anomaly: Fully convolutional neural network for fast anomaly detection in crowded scenes](https://arxiv.org/abs/1609.00866)
 - [Anomaly detection in crowded scenes](https://ieeexplore.ieee.org/document/5539872)
 * For the purpose of this experiment we have refered this Github repository [https://github.com/xingyizhou/pytorch-pose-hg-3d](https://github.com/xingyizhou/pytorch-pose-hg-3d) by @xingyizhou
 
