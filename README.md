@@ -17,4 +17,11 @@ Peds1: clips of groups of people walking towards and away from the camera, and s
 
 Peds2: scenes with pedestrian movement parallel to the camera plane. Contains 16 training video samples and 12 testing video samples.
 
+# Dependencies
 
+	python3.6
+	cv2
+	pytorch=0.3.1
+	torchvision
+	pandas
+	numpy
