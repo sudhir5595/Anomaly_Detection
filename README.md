@@ -45,9 +45,7 @@ All our models use GRU and the last attention one uses VGG16 pretrained others u
 
 - [Deep-anomaly: Fully convolutional neural network for fast anomaly detection in crowded scenes](https://arxiv.org/abs/1609.00866)
 - [Anomaly detection in crowded scenes](https://ieeexplore.ieee.org/document/5539872)
-* For the purpose of this experiment we have refered this Github repository [https://github.com/xingyizhou/pytorch-pose-hg-3d](https://github.com/xingyizhou/pytorch-pose-hg-3d) by @xingyizhou
-
-- [A CNN-RNN Architecture for Multilabel Classification of the Amazon](cs231n.stanford.edu/reports/2017/posters/903.pdf)
+* For the purpose of this experiment we have refered this Github repository[https://github.com/abendayan/anomaly-detection/blob/master/foreground_objects_features]
  
 
 
