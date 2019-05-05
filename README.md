@@ -4,4 +4,4 @@ In this project we are going to detect anomalies. Footage or data that we are us
 In this project we are trying to detect LAE from the video.
 ## Evaluation
 The evaluation is done by F1 Score.
-![f1_score](images/f1-score.jpg){:height="700px" width="400px"}
+<img src = "images/f1-score.jpg" width = "100" >
