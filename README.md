@@ -30,6 +30,8 @@ so finally we generated features and there labels using background substration a
 
   <img src="images/optical.png" width = "300" >
 
+so by using above methods we have tracked pedestrians. After that we generated data using optical flow like vx, vy and direction. As we have train data , we have used decision trees to classify local area into two classes normal and abnormal.
+At the end of this file you can see classified local area in white boxes.  
 ## Dataset
 We have used [UCSD Anomaly Detection Dataset](http://www.svcl.ucsd.edu/projects/anomaly/UCSD_Anomaly_Dataset.tar.gz) in this project. It consists of dataset which was split into 2 subsets, each corresponding to a different scene. The video footage recorded from each scene was split into various clips of around 200 frames.
 
@@ -41,8 +43,7 @@ Peds2: scenes with pedestrian movement parallel to the camera plane. Contains 16
 
 	python3.6
 	cv2
-	pytorch=0.3.1
-	torchvision
+	scikit-learn
 	pandas
 	numpy
 
