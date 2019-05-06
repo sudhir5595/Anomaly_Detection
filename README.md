@@ -20,12 +20,12 @@ We followed two different approaches to detect the LAE from the scene and finall
 
 so finally we generated features and there labels using background substration and optical flow and train model using random forest. Using optical flow we generated different features like angle and magnitude of Vx and Vy.  
 
-Tracking Using SSD
+Tracking Using Background substraction
    <p align='center'>
 
   <img src="images/backgrd.png" width = "300" >
   
-  Tracking Using SSD
+  Tracking Using Optical Flow
    <p align='center'>
 
   <img src="images/optical.png" width = "300" >
