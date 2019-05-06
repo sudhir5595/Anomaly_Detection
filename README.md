@@ -38,7 +38,7 @@ Peds2: scenes with pedestrian movement parallel to the camera plane. Contains 16
 	
 ## Results
 
-We have achieved F1 score of 0.23 on USCD anomaly dataset
+We have achieved F1 score of 0.52 on USCD anomaly dataset
 
 Test Event -
 <p align='center'>
