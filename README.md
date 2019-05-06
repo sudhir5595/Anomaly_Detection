@@ -16,9 +16,19 @@ We followed two different approaches to detect the LAE from the scene and finall
    Tracking Using SSD
    <p align='center'>
 
-  <img src="images/path.jpg" width = "500" >
+  <img src="images/path.jpg" width = "300" >
 
 so finally we generated features and there labels using background substration and optical flow and train model using random forest. Using optical flow we generated different features like angle and magnitude of Vx and Vy.  
+
+Tracking Using SSD
+   <p align='center'>
+
+  <img src="images/backgrd.png" width = "300" >
+  
+  Tracking Using SSD
+   <p align='center'>
+
+  <img src="images/optical.png" width = "300" >
 
 ## Dataset
 We have used [UCSD Anomaly Detection Dataset](http://www.svcl.ucsd.edu/projects/anomaly/UCSD_Anomaly_Dataset.tar.gz) in this project. It consists of dataset which was split into 2 subsets, each corresponding to a different scene. The video footage recorded from each scene was split into various clips of around 200 frames.
@@ -46,7 +56,10 @@ Peds2: scenes with pedestrian movement parallel to the camera plane. Contains 16
 ## Results
 
 We have achieved F1 score of 0.2251 on USCD anomaly dataset
-
+Result -  
+<p align='center'>
+<img src = "images/result.gif" width = "300" > 
+	
 Test Event -
 <p align='center'>
 <img src = "images/bbb.png" width = "300" >  
