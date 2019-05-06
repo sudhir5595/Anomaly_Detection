@@ -5,7 +5,10 @@ In this project we are trying to detect LAE from the video.
 
 ## Evaluation
 The evaluation is done by F1 Score.
+</p>
+
 <img src = "images/f1-score.jpg" width = "300" >
+
 
 ## Approaches 
 We followed two different approaches to detect the LAE from the scene and finally applied deep learning to detect anomaly. 
