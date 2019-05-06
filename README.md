@@ -34,11 +34,11 @@ Peds2: scenes with pedestrian movement parallel to the camera plane. Contains 16
 
 ### Detect the anaomaly from scene
 	
-	python3 video_classifier.py
+	python3 video_classifier.py 
 	
 ## Results
 
-All our models use GRU and the last attention one uses VGG16 pretrained others use RestNet18. The attention model took 6hrs to train on one GTX 1080. 
+We have achieved F1 score of 0.23 on test USCD anomaly dataset
 
 Test Event -
 <p align='center'>
