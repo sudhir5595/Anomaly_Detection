@@ -13,19 +13,19 @@ The evaluation is done by F1 Score.
 ## Approaches 
 We followed two different approaches to detect the LAE from the scene and finally used random forest to detect anomaly.In first trial to detect human we used SSD, background subsration and optical flow. We generated different images from it to train on CNN. but we later found that data generated not capturing the important features like speed.
 
-   Tracking Using SSD
+ <p style="text-align:center;"> <b> Tracking Using SSD </b></p>
    <p align='center'>
 
   <img src="images/path.jpg" width = "300" >
 
 so finally we generated features and there labels using background substration and optical flow and train model using random forest. Using optical flow we generated different features like angle and magnitude of Vx and Vy.  
 
-Tracking Using Background substraction
+<b>Tracking Using Background substraction</b>
    <p align='center'>
 
   <img src="images/backgrd.png" width = "300" >
   
-  Tracking Using Optical Flow
+  <b> Tracking Using Optical Flow </b>
    <p align='center'>
 
   <img src="images/optical.png" width = "300" >
