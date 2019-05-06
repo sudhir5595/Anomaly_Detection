@@ -39,7 +39,14 @@ Download the dataset from the url given above. It contains both train and test d
 
 All our models use GRU and the last attention one uses VGG16 pretrained others use RestNet18. The attention model took 6hrs to train on one GTX 1080. 
 
-### Attention Visualization
+Test Event -
+<p align='center'>
+<img src = "images/bbb.png" width = "300" >  
+</p>
+
+Result -  
+<p align='center'>
+<img src = "images/aaa.png" width = "300" > 
 
 ## References
 
