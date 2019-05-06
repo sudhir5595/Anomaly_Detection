@@ -31,8 +31,6 @@ Peds2: scenes with pedestrian movement parallel to the camera plane. Contains 16
 
 ## Running Instruction
 
-### Dataset
-Download the dataset from the url given above. It contains both train and test data. Extract the files(Keep the name as it is) 
 
 ### Detect the anaomaly from scene
 	
