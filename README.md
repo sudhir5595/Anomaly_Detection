@@ -11,7 +11,8 @@ The evaluation is done by F1 Score.
 
 
 ## Approaches 
-We followed two different approaches to detect the LAE from the scene and finally applied deep learning to detect anomaly. 
+We followed two different approaches to detect the LAE from the scene and finally used random forest to detect anomaly.In first trial to detect human we used SSD, background subsration and optical flow. We generated different images from it to train on CNN. but we later found that data generated not capturing the important features like speed.
+so finally we generated features and there labels using background substration and optical flow and train model using random forest. Using optical flow we generated different features like angle and magnitude of Vx and Vy.  
 
 ## Dataset
 We have used [UCSD Anomaly Detection Dataset](http://www.svcl.ucsd.edu/projects/anomaly/UCSD_Anomaly_Dataset.tar.gz) in this project. It consists of dataset which was split into 2 subsets, each corresponding to a different scene. The video footage recorded from each scene was split into various clips of around 200 frames.
@@ -38,7 +39,7 @@ Peds2: scenes with pedestrian movement parallel to the camera plane. Contains 16
 	
 ## Results
 
-We have achieved F1 score of 0.2251 on USCD anomaly dataset
+We have achieved F1 score of 0.52 on USCD anomaly dataset
 
 Test Event -
 <p align='center'>
